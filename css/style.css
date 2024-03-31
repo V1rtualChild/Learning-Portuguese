@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "KyivTypeSans";
+    src: url("../fonts/KyivTypeSans-Bold-.otf") format("opentype");
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #C8C8C8;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 84px;
+
+}
+
+.burger-menu {
+    display: none;
+}
+
+.menu a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    text-decoration: none;
+    color: #143A83;
+    margin-left: 65px;
+}
+
+.signUp {
+    background-color: transparent;
+    padding: 9px 29px;
+    border: 2px solid #143A83;
+    border-radius: 32px;
+}
+
+
+
+/* !!! CONTAINER 1 */
+
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 84px;
+}
+
+.description {
+    width: 100%;
+}
+
+.name-course {
+    display: flex;
+    position: relative;
+}
+
+.name-course p {
+    color: #143A83;
+    font-size: 65px;
+    font-family: "KyivTypeSans", sans-serif;
+
+}
+
+.name-course img {
+    position: absolute;
+    bottom: 25px;
+    left: 420px;
+}
+
+.p1 {
+    font-family: "KyivTypeSans", sans-serif;
+    font-size: 38px;
+    color: #143A83;
+    margin-top: 26px;
+}
+
+.p2 {
+    color: #737373;
+    font-size: 21px;
+    margin-top: 64px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button {
+    display: flex;
+    margin-top: 65px;
+    gap: 25px;
+}
+
+.button .a1 {
+    background-color: #143A83;
+    border: 1px solid #143A83;
+    border-radius: 60px;
+    padding: 14px 50px;
+    text-decoration: none;
+    color: #fff;
+
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.button .a2 {
+    background-color: transparent;
+    border: 1px solid #828282;
+    border-radius: 60px;
+    padding: 14px 61px;
+    text-decoration: none;
+    color: #828282;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bg-photo-bottom {
+    display: none;
+}
+
+.bg-photo img {
+    max-width: 778px;
+    margin-top: -30px;
+}
+
+
+
+
+@media only screen and (max-width: 1350px) {
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .burger-menu span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #143A83;
+        border-radius: 3px;
+        margin: 5px 0;
+    }
+
+    .menu {
+        display: none;
+        color: #143A83;
+    }
+
+
+    /* !!! CONTAINER 1 */
+
+    .name-course {
+        display: flex;
+        position: relative;
+    }
+
+    .name-course p {
+        color: #143A83;
+        font-size: 45px;
+        font-family: "KyivTypeSans", sans-serif;
+
+    }
+
+    .name-course img {
+        width: 140px;
+        position: absolute;
+        bottom: 20px;
+        left: 300px;
+    }
+
+    .p1 {
+        font-family: "KyivTypeSans", sans-serif;
+        font-size: 25px;
+        color: #143A83;
+        margin-top: 26px;
+    }
+
+    .p2 {
+        color: #737373;
+        font-size: 17px;
+        margin-top: 64px;
+        max-width: 450px;
+
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .bg-photo img {
+        max-width: 578px;
+        margin-top: -20px;
+    }
+
+}
+
+@media only screen and (max-width: 1080px) {
+    nav {
+        padding: 50px 40px;
+    }
+
+    .container-1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+
+    .description_div {
+        padding: 0 40px;
+    }
+
+    .description_p {
+        padding: 0 40px;
+    }
+
+    .name-course {
+        display: flex;
+        position: relative;
+
+    }
+    .p1{
+        margin-top: 10px;
+    }
+    .p2{
+        margin-top: 15px;
+        font-size: 0.95em;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 40px;
+    }
+
+    .button .a1 {
+        padding: 14px 103px;
+    }
+
+    .button .a2 {
+        padding: 14px 83px;
+    }
+
+    .bg-photo-bottom {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg-photo-bottom img {
+        width: 300px;
+    }
+
+    .bg-photo img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-1{
+        padding-top: 10px;
+    }
+
+    .p1{
+        margin-top: 10px;
+    }
+    .p2{
+        margin-top: 15px;
+        font-size: 0.95em;
+    }
+
+    .name-course p {
+        color: #143A83;
+        font-size: 35px;
+        font-family: "KyivTypeSans", sans-serif;
+
+    }
+    .name-course img {
+        width: 110px;
+        position: absolute;
+        bottom: 10px;
+        left: 215px;
+    }
+
+    .bg-photo-bottom img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {}
