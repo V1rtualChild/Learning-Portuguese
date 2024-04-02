@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "KyivTypeSans";
+    src: url("../fonts/KyivTypeSans-Bold-.otf") format("opentype");
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-5{
+    margin-bottom: 155px;
+}
+
+.container_block {
+    background-color: #3057A4;
+    margin: 0 80px;
+    border-radius: 90px;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Start_studying {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    font-size: 48px;
+    color: #fff;
+}
+
+.Learn {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 18px;
+    color: #fff;
+    margin-top: 45px;
+}
+
+.Learn span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.vector {
+    margin-top: 38px;
+}
+
+.start_now {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 490px;
+    background-color: #D3D3D3;
+    border-radius: 60px;
+    margin-top: 50px;
+}
+
+.start_now a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 50px;
+    border-radius: 60px;
+    background-color: #16346D;
+    margin-right: -2px;
+}
+
+.Rectangle26{
+    width: 530px;
+    margin-bottom: 18px;
+}
+
+.bottom-images{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.raviews{
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 40px;
+    padding: 25px;
+}
+
+.rectangle_raviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rectangle_raviews p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    color: #BBBBBB;
+    padding: 8px 13px;
+    background-color: #666666;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.starts{
+    margin-top: 19px;
+}
+
+.people{
+    margin-top: 39px;
+}
+
+.Last_review{
+    font-size: 16px;
+    color: #585858;
+    margin-top: 30px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.Great_courses{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.Great_courses p{
+    font-size: 14px;
+    margin-left: 4px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/* MEDIA SCREEN */
+
+
+@media only screen and (max-width: 1340px){
+    .block_rigth{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container_block{
+        margin: 0;
+        border-radius: 40px;
+    }
+    .container_block br{
+        display: none;
+    }
+
+    .Start_studying{
+        font-size: 28px;
+    }
+    .Learn{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .vector img{
+        width: 23.3px;
+        margin-top: 27px;
+    }
+
+    #input{
+        font-size: 14px;
+    }
+
+    .start_now{
+        width: 316px;
+        margin-top: 27px;
+    }
+
+    .start_now a{
+        font-size: 14px;
+        padding: 10px 34px;
+    }
+}

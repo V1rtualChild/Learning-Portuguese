@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "KyivTypeSans";
+    src: url("../fonts/KyivTypeSans-Bold-.otf") format("opentype");
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+footer{
+    background-color: #3057A4;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.LearningPortuguese{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.phone_numbers{
+    display: flex;
+    gap: 30px;
+}
+
+.phone_numbers p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
