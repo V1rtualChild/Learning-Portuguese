@@ -40,32 +40,36 @@
 }
 
 .cards {
-    background-color: rgba(22, 67, 155, 0.3);
+    /* background-color: rgba(22, 67, 155, 0.3); */
+    background-image: url('../img/Frame\ 33.png');
+    background-size: cover;
     width: 350px;
     height: 100%;
     padding: 24px 16px;
     border-radius: 20px;
-    backdrop-filter: blur(50px);
     box-shadow: inset 50px 50px 50px 0 rgba(255, 255, 255, 0.154);
 }
 
 .cards2 {
     margin-top: 87px;
-    background-color: rgba(183, 207, 255, 0.4);
+    /* background-color: rgba(183, 207, 255, 0.4); */
+    background-image: url('../img/Frame\ 92.png');
+    background-size: cover;
     width: 350px;
     padding: 24px 16px;
     border-radius: 20px;
-    backdrop-filter: blur(50px);
     box-shadow: inset 50px 50px 50px 0 rgba(255, 255, 255, 0.154);
 }
 
 .cards3 {
-    background-color: rgba(18, 83, 250, 0.5);
+    /* background-color: rgba(18, 83, 250, 0.5); */
+    background-image: url('../img/Frame\ 95.png');
+    background-size: cover;
     height: 100%;
     width: 350px;
     padding: 24px 16px;
     border-radius: 20px;
-    backdrop-filter: blur(50px);
+    /* backdrop-filter: blur(50px); На GitHub не працює :(*/
     box-shadow: inset 50px 50px 50px 0 rgba(255, 255, 255, 0.154);
 }
 
@@ -216,73 +220,77 @@
     .Ellipse6 {
         display: block;
         position: absolute;
-        margin-top: 11em;
-        margin-left: -10em;
+        margin-top: 176px;
+        /* 11em * 16px = 176px */
+        margin-left: -160px;
+        /* -10em * 16px = -160px */
         z-index: -1;
     }
 
     .Ellipse7 {
         display: block;
         position: absolute;
-        margin-top: 23.5em;
-        margin-left: 11.5em;
+        margin-top: 376px;
+        margin-left: 184px;
         z-index: -1;
     }
 
     .Ellipse9 {
         display: block;
         position: absolute;
-        margin-top: 38.5em;
-        margin-left: -17.5em;
+        margin-top: 616px;
+        margin-left: -280px;
         z-index: -1;
     }
 
     .Ellipse2 {
         display: block;
         position: absolute;
-        margin-top: 42em;
-        margin-left: 1.2em;
+        margin-top: 672px;
+        margin-left: 19.2px;
         z-index: -1;
     }
 
     .Ellipse10 {
         display: block;
         position: absolute;
-        margin-top: 64em;
-        margin-left: -11em;
+        margin-top: 1024px;
+        margin-left: -176px;
         z-index: -1;
     }
 
     .Ellipse8 {
         display: block;
         position: absolute;
-        margin-top: 74em;
-        margin-left: 15.5em;
+        margin-top: 1184px;
+        margin-left: 248px;
         z-index: -1;
     }
 
     .Ellipse11 {
         display: block;
         position: absolute;
-        margin-top: 88em;
-        margin-left: -9em;
+        margin-top: 1408px;
+        margin-left: -144px;
         z-index: -1;
     }
 
     .Ellipse12 {
         display: block;
         position: absolute;
-        margin-top: 108em;
-        margin-left: 14em;
+        margin-top: 1728px;
+        margin-left: 224px;
         z-index: -1;
     }
+
     .Ellipse13 {
         display: block;
         position: absolute;
-        margin-top: 118em;
-        margin-left: -17em;
+        margin-top: 1888px;
+        margin-left: -272px;
         z-index: -1;
     }
+
 
     .cards2,
     .cards3 {
@@ -362,6 +370,7 @@
         margin-left: 13em;
         z-index: -1;
     }
+
     .Ellipse12 {
         display: block;
         position: absolute;
@@ -369,6 +378,7 @@
         margin-left: 12em;
         z-index: -1;
     }
+
     .Ellipse13 {
         display: block;
         position: absolute;
