@@ -108,7 +108,7 @@ button {
 
     input{
         padding-bottom: 5px;
-        margin-left: 15px;
+        padding-left: 15px;
     }
 
     input::placeholder {
