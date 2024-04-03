@@ -45,6 +45,7 @@
     border: 2px solid #878787;
     border-radius: 60px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     margin: 10px auto;
     width: 28.7em;
@@ -81,6 +82,7 @@ button {
     border-radius: 60px;
     color: #fff;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 
@@ -116,5 +118,7 @@ button {
     button{
         font-size: 14px;
         padding: 7px 30px;
+        margin-right: 4px;
+
     }
 }
