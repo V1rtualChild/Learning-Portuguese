@@ -4,283 +4,378 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Learning Portuguese</title>
+    <link rel="icon" href="./img/Star 1.png">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/style-2.css">
     <link rel="stylesheet" href="./css/style-3.css">
     <link rel="stylesheet" href="./css/style-4.css">
     <link rel="stylesheet" href="./css/style-5.css">
     <link rel="stylesheet" href="./css/style-6.css">
+    <link rel="stylesheet" href="./css/menu-burger.css">
 
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <div class="logo">
-                <img height="30px" src="./img/logoipsum-297 1.png" alt="">
-            </div>
-            <label class="burger-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            <div class="menu">
-                <a href="">About</a>
-                <a href="">Price</a>
-                <a href="">Sale</a>
-                <a class="signUp" href="">Sign up</a>
-            </div>
-        </nav>
-    </header>
-
-    <div class="container-1">
-        <div class="description">
-            <div class="description_div">
-                <div class="name-course">
-                    <div class="">
-                        <p>LEARNING</p>
-                        <p>PORTUGUESE</p>
-                    </div>
-                    <div class="star">
-                        <img src="./img/Star 1.png" alt="">
-                    </div>
+    <div class="landingPage">
+        <header>
+            <nav id="navBlock">
+                <div class="logo">
+                    <img height="30px" src="./img/logoipsum-297 1.png" alt="">
                 </div>
-            </div>
-            <div class="description_p">
-                <p class="p1">on our courses</p>
-                <p class="p2">Step-by-step Portuguese course: Learn the language easily and effectively</p>
-            </div>
-            <div class="bg-photo-bottom">
-                <img src="./img/51904353q.jpg" alt="">
-            </div>
-            <div class="button">
-                <a class="a1" href="">Buy now</a>
-                <a class="a2" href="">Register here</a>
-            </div>
-        </div>
-
-        <div class="bg-photo">
-            <img src="./img/5190435 1.png" alt="">
-        </div>
-    </div>
-
-
-
-
-
-
-    <div class="container-2">
-        <div class="Rectangle">
-            <div>
-                <img class="Rectangle_1" src="./img/Rectangle 10.png" alt="">
-            </div>
-            <div>
-                <img class="Rectangle_2" src="./img/Rectangle 11.png" alt="">
-            </div>
-        </div>
-        <div class="rigthBlockInfo">
-            <div class="info">
-                <p class="info_p1">About course</p>
-                <p class="info_p2">Learning Portuguese - Easy, Convenient, Thanks to Us</p>
-                <p class="info_p3">Forget about boring lessons! Our courses are developed using modern technologies and
-                    interactive tools.
-                    Learn a language at your own pace, anywhere and from any device.</p>
-                <p class="info_p4">Our experience in the field of language learning guarantees you the highest quality
-                    of
-                    education.</p>
-            </div>
-            <div class="rating">
-                <div class="rating_1">
-                    <p class="rating_1_p">78</p>
-                    <p class="rating_1_p1">Lessons to study completely</p>
+                <label class="burger-menu" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <div class="menu" id="menu">
+                    <a href="">About</a>
+                    <a href="">Price</a>
+                    <a href="">Sale</a>
+                    <a class="signUp" href="">Sign up</a>
                 </div>
-                <div class="rating_1">
-                    <p class="rating_1_p_bg">192</p>
-                    <p class="rating_1_p1">Graduates</p>
-                </div>
-                <div class="rating_1">
-                    <p class="rating_1_p2">26</p>
-                    <p class="rating_1_p1">Experienced teachers</p>
-                </div>
-            </div>
-            <div class="lastInfo">
-                <p>Our experience in the field of language learning guarantees you the highest quality of
-                    education.</p>
+            </nav>
+        </header>
 
-                <div class="bottomRectangle">
-                    <img class="Rectangle_3" src="./img/Rectangle 11.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="container-3">
-        <div class="img-3">
-            <img src="./img/Group 7.png" alt="">
-        </div>
-        <div class="txt-3">
-            <p>Take a free test to find out
-                your language level now</p>
-        </div>
-        <form class="btnSend" action="">
-            <input type="email" name="email" id="" placeholder="Your Email">
-            <button type="button">Send</button>
-        </form>
-    </div>
-
-
-    <div class="container-4">
-        <div class="cards">
-            <div class="card_img">
-                <img src="./img/Ellipse 4.png" alt="">
-            </div>
-            <p class="nameCourse">Basic online course</p>
-            <div class="div-name-card">
-                <div class="name-cards">
-                    <p class="name-card">All classes: <span class="card-description">15 lessons (2 times a week)</span>
-                    </p>
-                </div>
-                <div class="name-cards">
-                    <p class="name-card">Days: <span class="card-description">Monday-Tuesday or<br>
-                            Thursday-Saturday</span></p>
-                </div>
-                <div class="name-cards">
-                    <p class="name-card">Schedule: <span class="card-description">09:00-12:00 or 19:00-21:00</span></p>
-                </div>
-                <div class="course-card">
-                    <p>2 lessons per week</p>
-                    <p>Homework check</p>
-                    <p>Access to videos and tasks at any time</p>
-                    <p>Individual consultations and feedback via chat or email</p>
-                </div>
-            </div>
-            <div class="btn_buy">
-                <p>$ 70.50</p>
-                <a href="">Buy now</a>
-            </div>
-        </div>
-
-        <div class="cards2">
-            <p class="nameCourse1">Standart</p>
-            <div class="div-name-card">
-                <div class="name-cards">
-                    <p class="name-card">All classes: <span class="card-description">26 lessons (3 times a week)</span>
-                    </p>
-                </div>
-                <div class="name-cards">
-                    <p class="name-card">Days: <span class="card-description"> Monday-Tuesday-Saturday</span></p>
-                </div>
-                <div class="name-cards">
-                    <p class="name-card">Schedule: <span class="card-description">09:00-12:00 or 15:00-17:00</span></p>
-                </div>
-                <div class="course-card">
-                    <p>26 group classes (90 minutes each)</p>
-                    <p>Individual consultations and pronunciation correction</p>
-                    <p>Practical tasks and homework</p>
-                    <p>Access to educational materials and resources</p>
-                    <p>Conversation training with native speakers</p>
-                </div>
-            </div>
-            <div class="btn_buy">
-                <p>$ 220.00</p>
-                <a href="">Buy now</a>
-            </div>
-        </div>
-
-        <div class="cards3">
-            <p class="nameCourse2">Premium</p>
-            <div class="div-name-card">
-                <div class="name-cards">
-                    <p class="name-card">All classes: <span class="card-description"> 44 lessons (3 times a week)</span>
-                    </p>
-                </div>
-                <div class="name-cards">
-                    <p class="name-card">Days: <span class="card-description">We choose according to your<br>
-                            schedule</span></p>
-                </div>
-                <div class="name-cards">
-                    <p class="name-card">Schedule: <span class="card-description">At your choice</span></p>
-                </div>
-                <div class="course-card">
-                    <p>Flexible schedule to fit your schedule</p>
-                    <p>Classes are held 3 times a week</p>
-                    <p>Additional practical tasks to strengthen skills</p>
-                    <p>Individual additional classes on request</p>
-                    <p>A book as a gift</p>
-                </div>
-            </div>
-            <div class="btn_buy_premium">
-                <p>$ 70.50</p>
-                <a href="">Buy now</a>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="container-5">
-        <div class="container_block">
-            <div class="block_left">
-                <p class="Start_studying">Start studying today <br> and get a -10%</p>
-                <p class="Learn">Today only: Learn <span>Portuguese</span> Profitably! Get 10% Discount <br> on All
-                    Course
-                    Packages. Choose
-                    Quality and
-                    Efficiency in <br> Online or Face-to-face Classes</p>
-                <div class="vector">
-                    <img src="./img/Vector.png" alt="">
-                </div>
-                <div class="start_now">
-                    <input id="input" type="phone" placeholder="Enter your number">
-                    <a href="">Start now</a>
-                </div>
-            </div>
-            <div class="block_rigth">
-                <div class="block_rigth_img">
-                    <img class="Rectangle26" src="./img/Rectangle 26.png" alt="">
-                    <div class="bottom-images">
-                        <div class="raviews">
-                            <div class="rectangle_raviews">
-                                <p>156 Raviews</p>
-                                <img src="./img/Group 3.png" alt="">
-                            </div>
-                            <div class="">
-                                <img class="starts" src="./img/Frame 51.png" alt="">
-                            </div>
-                            <div class="">
-                                <img class="people" src="./img/Frame 53.png" alt="">
-                            </div>
-                            <p class="Last_review">Last review:</p>
-                            <div class="Great_courses">
-                                <img src="./img/Ellipse 15.png" alt="">
-                                <p>Great courses, accessible explanation and fun teachers!</p>
-                            </div>
-                        </div>
+        <div class="container-1">
+            <div class="description">
+                <div class="description_div">
+                    <div class="name-course">
                         <div class="">
-                            <img src="./img/Rectangle 27.png" alt="">
+                            <p>LEARNING</p>
+                            <p>PORTUGUESE</p>
+                        </div>
+                        <div class="star">
+                            <img src="./img/Star 1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="description_p">
+                    <p class="p1">on our courses</p>
+                    <p class="p2">Step-by-step Portuguese course: Learn the language easily and effectively</p>
+                </div>
+                <div class="bg-photo-bottom">
+                    <img src="./img/51904353q.jpg" alt="">
+                </div>
+                <div class="button">
+                    <a class="a1" href="">Buy now</a>
+                    <a class="a2" href="">Register here</a>
+                </div>
+            </div>
+
+            <div class="bg-photo">
+                <img src="./img/5190435 1.png" alt="">
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="container-2">
+            <div class="Rectangle">
+                <div>
+                    <img class="Rectangle_1" src="./img/Rectangle 10.png" alt="">
+                </div>
+                <div>
+                    <img class="Rectangle_2" src="./img/Rectangle 11.png" alt="">
+                </div>
+            </div>
+            <div class="rigthBlockInfo">
+                <div class="info">
+                    <p class="info_p1">About course</p>
+                    <p class="info_p2">Learning Portuguese - Easy, Convenient, Thanks to Us</p>
+                    <p class="info_p3">Forget about boring lessons! Our courses are developed using modern technologies
+                        and
+                        interactive tools.
+                        Learn a language at your own pace, anywhere and from any device.</p>
+                    <p class="info_p4">Our experience in the field of language learning guarantees you the highest
+                        quality
+                        of
+                        education.</p>
+                </div>
+                <div class="rating">
+                    <div class="rating_1">
+                        <p class="rating_1_p">78</p>
+                        <p class="rating_1_p1">Lessons to study completely</p>
+                    </div>
+                    <div class="rating_1">
+                        <p class="rating_1_p_bg">192</p>
+                        <p class="rating_1_p1">Graduates</p>
+                    </div>
+                    <div class="rating_1">
+                        <p class="rating_1_p2">26</p>
+                        <p class="rating_1_p1">Experienced teachers</p>
+                    </div>
+                </div>
+                <div class="lastInfo">
+                    <p>Our experience in the field of language learning guarantees you the highest quality of
+                        education.</p>
+
+                    <div class="bottomRectangle">
+                        <img class="Rectangle_3" src="./img/Rectangle 11.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-3">
+            <div class="img-3">
+                <img src="./img/Group 7.png" alt="">
+            </div>
+            <div class="txt-3">
+                <p>Take a free test to find out
+                    your language level now</p>
+            </div>
+            <form class="btnSend" action="">
+                <input type="email" name="email" id="" placeholder="Your Email">
+                <button type="button">Send</button>
+            </form>
+        </div>
+
+
+        <div class="container-4">
+            <div class="cards">
+                <div class="card_img">
+                    <img src="./img/Ellipse 4.png" alt="">
+                </div>
+                <p class="nameCourse">Basic online course</p>
+                <div class="div-name-card">
+                    <div class="name-cards">
+                        <p class="name-card">All classes: <span class="card-description">15 lessons (2 times a
+                                week)</span>
+                        </p>
+                    </div>
+                    <div class="name-cards">
+                        <p class="name-card">Days: <span class="card-description">Monday-Tuesday or<br>
+                                Thursday-Saturday</span></p>
+                    </div>
+                    <div class="name-cards">
+                        <p class="name-card">Schedule: <span class="card-description">09:00-12:00 or 19:00-21:00</span>
+                        </p>
+                    </div>
+                    <div class="course-card">
+                        <p>2 lessons per week</p>
+                        <p>Homework check</p>
+                        <p>Access to videos and tasks at any time</p>
+                        <p>Individual consultations and feedback via chat or email</p>
+                    </div>
+                </div>
+                <div class="btn_buy">
+                    <p>$ 70.50</p>
+                    <a href="">Buy now</a>
+                </div>
+            </div>
+
+            <div class="cards2">
+                <p class="nameCourse1">Standart</p>
+                <div class="div-name-card">
+                    <div class="name-cards">
+                        <p class="name-card">All classes: <span class="card-description">26 lessons (3 times a
+                                week)</span>
+                        </p>
+                    </div>
+                    <div class="name-cards">
+                        <p class="name-card">Days: <span class="card-description"> Monday-Tuesday-Saturday</span></p>
+                    </div>
+                    <div class="name-cards">
+                        <p class="name-card">Schedule: <span class="card-description">09:00-12:00 or 15:00-17:00</span>
+                        </p>
+                    </div>
+                    <div class="course-card">
+                        <p>26 group classes (90 minutes each)</p>
+                        <p>Individual consultations and pronunciation correction</p>
+                        <p>Practical tasks and homework</p>
+                        <p>Access to educational materials and resources</p>
+                        <p>Conversation training with native speakers</p>
+                    </div>
+                </div>
+                <div class="btn_buy">
+                    <p>$ 220.00</p>
+                    <a href="">Buy now</a>
+                </div>
+            </div>
+
+            <div class="cards3">
+                <p class="nameCourse2">Premium</p>
+                <div class="div-name-card">
+                    <div class="name-cards">
+                        <p class="name-card">All classes: <span class="card-description"> 44 lessons (3 times a
+                                week)</span>
+                        </p>
+                    </div>
+                    <div class="name-cards">
+                        <p class="name-card">Days: <span class="card-description">We choose according to your<br>
+                                schedule</span></p>
+                    </div>
+                    <div class="name-cards">
+                        <p class="name-card">Schedule: <span class="card-description">At your choice</span></p>
+                    </div>
+                    <div class="course-card">
+                        <p>Flexible schedule to fit your schedule</p>
+                        <p>Classes are held 3 times a week</p>
+                        <p>Additional practical tasks to strengthen skills</p>
+                        <p>Individual additional classes on request</p>
+                        <p>A book as a gift</p>
+                    </div>
+                </div>
+                <div class="btn_buy_premium">
+                    <p>$ 70.50</p>
+                    <a href="">Buy now</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-5">
+            <div class="container_block">
+                <div class="block_left">
+                    <p class="Start_studying">Start studying today <br> and get a -10%</p>
+                    <p class="Learn">Today only: Learn <span>Portuguese</span> Profitably! Get 10% Discount <br> on All
+                        Course
+                        Packages. Choose
+                        Quality and
+                        Efficiency in <br> Online or Face-to-face Classes</p>
+                    <div class="vector">
+                        <img src="./img/Vector.png" alt="">
+                    </div>
+                    <div class="start_now">
+                        <input id="input" type="phone" placeholder="Enter your number">
+                        <a href="">Start now</a>
+                    </div>
+                </div>
+                <div class="block_rigth">
+                    <div class="block_rigth_img">
+                        <img class="Rectangle26" src="./img/Rectangle 26.png" alt="">
+                        <div class="bottom-images">
+                            <div class="raviews">
+                                <div class="rectangle_raviews">
+                                    <p>156 Raviews</p>
+                                    <img src="./img/Group 3.png" alt="">
+                                </div>
+                                <div class="">
+                                    <img class="starts" src="./img/Frame 51.png" alt="">
+                                </div>
+                                <div class="">
+                                    <img class="people" src="./img/Frame 53.png" alt="">
+                                </div>
+                                <p class="Last_review">Last review:</p>
+                                <div class="Great_courses">
+                                    <img src="./img/Ellipse 15.png" alt="">
+                                    <p>Great courses, accessible explanation and fun teachers!</p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <img src="./img/Rectangle 27.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <footer>
+            <div class="block_with_hr">
+                <div class="allInfo">
+                    <div class="companyInfo1">
+                        <img src="./img/logoipsum-297 2.png" alt="">
+                        <p class="LearningPortuguese">Learning Portuguese - Easy, Convenient, <br>Thanks to Us</p>
+                        <div class="phone_numbers">
+                            <p>063 890 77 87</p>
+                            <p>096 990 63 77</p>
+                        </div>
+                    </div>
+
+                    <div class="allInfo_block">
+                        <div class="block_about">
+                            <p>About</p>
+                            <div>
+                                <a href="">Courses</a>
+                                <a href="">Blog</a>
+                                <a href="">Test</a>
+                                <a href="">Review</a>
+                            </div>
+                        </div>
+
+                        <div class="block_SignUp">
+                            <p>Sign up</p>
+                            <div>
+                                <a href="">Enter</a>
+                                <a href="">Profile</a>
+                                <a href="">Sale</a>
+                                <a href="">Lessons</a>
+                            </div>
+                        </div>
+
+                        <div class="block_Legal">
+                            <p>Legal</p>
+                            <div>
+                                <a href="">Privacy</a>
+                                <a href="">Policies</a>
+                                <a href="">Tearms of Use</a>
+                                <a href="">Other</a>
+                            </div>
+                        </div>
+
+                        <div class="social_icon">
+                            <div>
+                                <img src="./img/ion_social-whatsapp.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./img/simple-line-icons_social-youtube.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./img/mingcute_telegram-line.png" alt="">
+                            </div>
+                            <div>
+                                <img src="./img/mdi_instagram.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="Privacy">
+                    <div>
+                        <a href="">Privacy</a>
+                    </div>
+                    <div class="TearmsOfUse">
+                        <a href="">Tearms of Use</a>
+                        <span></span>
+                        <a href="">Policies</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
-
-    <!-- <footer>
-        <div class="companyInfo1">
-            <img src="./img/logoipsum-297 2.png" alt="">
-            <p class="LearningPortuguese">Learning Portuguese - Easy, Convenient, <br>Thanks to Us</p>
-            <div class="phone_numbers">
-                <p>063 890 77 87</p>
-                <p>096 990 63 77</p>
-            </div>
+    <div id="menuBurgerInfo" class="block_burger_menu hidden">
+        <div onclick="backToMenu()" class="backToPage" id="backToPage">
+            <img src="./img/fluent_arrow-up-16-regular.png" alt="">
         </div>
-    </footer> -->
+        <div class="div_about">
+            <a href="">About</a>
+        </div>
+        <div class="div_price">
+            <a href="">Price</a>
+        </div>
+        <div class="div_sale">
+            <a href="">Sale</a>
+        </div>
+        <div class="div_freeTest">
+            <a href="">Free test</a>
+        </div>
+        <div class="signUpBTN">
+            <a href="">Sign up</a>
+        </div>
+    </div>
 
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
