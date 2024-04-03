@@ -1,0 +1,112 @@
+.block_burger_menu {
+    background-image: url('/img/bg-blur.png');
+    background-size: cover;
+    padding: 0 29px;
+    padding-top: 71px;
+    padding-bottom: 50px;
+    text-align: center;
+    height: 100vh;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.backToPage {
+    background-color: #143A83;
+    padding: 10px 285px 10px 26px;
+    border-radius: 40px;
+    width: 15px;
+    cursor: pointer;
+    margin: 1px auto;
+}
+
+.div_about {
+    margin-top: 94px;
+}
+
+.div_about a {
+    text-decoration: none;
+    color: #143A83;
+    background-color: transparent;
+    border: 1px solid #143A83;
+    border-radius: 40px;
+    padding: 10px 228px 10px 46px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.div_price {
+    margin-top: 58px;
+}
+
+.div_price a {
+    text-decoration: none;
+    color: #143A83;
+    background-color: transparent;
+    border: 1px solid #143A83;
+    border-radius: 40px;
+    padding: 10px 236px 10px 46px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.div_sale {
+    margin-top: 58px;
+}
+
+.div_sale a {
+    text-decoration: none;
+    color: #143A83;
+    background-color: transparent;
+    border: 1px solid #143A83;
+    border-radius: 40px;
+    padding: 10px 243px 10px 46px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.div_freeTest {
+    margin-top: 58px;
+}
+
+.div_freeTest a {
+    text-decoration: none;
+    color: #143A83;
+    background-color: transparent;
+    border: 1px solid #143A83;
+    border-radius: 40px;
+    padding: 10px 206px 10px 46px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.signUpBTN {
+    margin-top: 60px;
+}
+
+.signUpBTN a {
+    padding: 9px 44px;
+    background-color: #143A83;
+    border-radius: 32px;
+    text-decoration: none;
+    color: #fff;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
