@@ -21,6 +21,20 @@
     margin-bottom: 160px;
 }
 
+.Ellipse6,
+.Ellipse7,
+.Ellipse9,
+.Ellipse2,
+.Ellipse10,
+.Ellipse8,
+.Ellipse11,
+.Ellipse12,
+.Ellipse13 {
+    display: none;
+}
+
+
+
 .card_img {
     display: none;
 }
@@ -31,7 +45,7 @@
     height: 100%;
     padding: 24px 16px;
     border-radius: 20px;
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(50px);
     box-shadow: inset 50px 50px 50px 0 rgba(255, 255, 255, 0.154);
 }
 
@@ -41,7 +55,7 @@
     width: 350px;
     padding: 24px 16px;
     border-radius: 20px;
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(50px);
     box-shadow: inset 50px 50px 50px 0 rgba(255, 255, 255, 0.154);
 }
 
@@ -51,7 +65,7 @@
     width: 350px;
     padding: 24px 16px;
     border-radius: 20px;
-    backdrop-filter: blur(100px);
+    backdrop-filter: blur(50px);
     box-shadow: inset 50px 50px 50px 0 rgba(255, 255, 255, 0.154);
 }
 
@@ -199,6 +213,77 @@
 
 @media only screen and (max-width: 520px) {
 
+    .Ellipse6 {
+        display: block;
+        position: absolute;
+        margin-top: 11em;
+        margin-left: -10em;
+        z-index: -1;
+    }
+
+    .Ellipse7 {
+        display: block;
+        position: absolute;
+        margin-top: 23.5em;
+        margin-left: 11.5em;
+        z-index: -1;
+    }
+
+    .Ellipse9 {
+        display: block;
+        position: absolute;
+        margin-top: 38.5em;
+        margin-left: -17.5em;
+        z-index: -1;
+    }
+
+    .Ellipse2 {
+        display: block;
+        position: absolute;
+        margin-top: 42em;
+        margin-left: 1.2em;
+        z-index: -1;
+    }
+
+    .Ellipse10 {
+        display: block;
+        position: absolute;
+        margin-top: 64em;
+        margin-left: -11em;
+        z-index: -1;
+    }
+
+    .Ellipse8 {
+        display: block;
+        position: absolute;
+        margin-top: 74em;
+        margin-left: 15.5em;
+        z-index: -1;
+    }
+
+    .Ellipse11 {
+        display: block;
+        position: absolute;
+        margin-top: 88em;
+        margin-left: -9em;
+        z-index: -1;
+    }
+
+    .Ellipse12 {
+        display: block;
+        position: absolute;
+        margin-top: 108em;
+        margin-left: 14em;
+        z-index: -1;
+    }
+    .Ellipse13 {
+        display: block;
+        position: absolute;
+        margin-top: 118em;
+        margin-left: -17em;
+        z-index: -1;
+    }
+
     .cards2,
     .cards3 {
         margin-top: 55px;
@@ -234,5 +319,61 @@
     .btn_buy_premium a {
         font-size: 16.6px;
         padding: 11.6px 41.6px;
+    }
+}
+
+@media only screen and (max-width: 388px) {
+    .Ellipse6 {
+        display: block;
+        position: absolute;
+        margin-top: 11em;
+        margin-left: -8em;
+        z-index: -1;
+    }
+
+    .Ellipse7 {
+        display: block;
+        position: absolute;
+        margin-top: 23.5em;
+        margin-left: 9.5em;
+        z-index: -1;
+    }
+
+    .Ellipse9 {
+        display: block;
+        position: absolute;
+        margin-top: 38.5em;
+        margin-left: -14.5em;
+        z-index: -1;
+    }
+
+    .Ellipse2 {
+        display: block;
+        position: absolute;
+        margin-top: 42em;
+        margin-left: 0em;
+        z-index: -1;
+    }
+
+    .Ellipse8 {
+        display: block;
+        position: absolute;
+        margin-top: 74em;
+        margin-left: 13em;
+        z-index: -1;
+    }
+    .Ellipse12 {
+        display: block;
+        position: absolute;
+        margin-top: 108em;
+        margin-left: 12em;
+        z-index: -1;
+    }
+    .Ellipse13 {
+        display: block;
+        position: absolute;
+        margin-top: 118em;
+        margin-left: -15em;
+        z-index: -1;
     }
 }
