@@ -14,28 +14,268 @@
 
 
 
-
-footer{
+.block_with_hr {
     background-color: #3057A4;
+    padding: 0 80px;
     padding-top: 50px;
     padding-bottom: 75px;
 }
 
-.LearningPortuguese{
+.allInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LearningPortuguese {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+
+    color: #fff;
+    margin-top: 31px;
 }
 
-.phone_numbers{
+.phone_numbers {
     display: flex;
     gap: 30px;
+    margin-top: 57px;
 }
 
-.phone_numbers p{
+.phone_numbers p {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+
+    color: #fff;
+}
+
+.allInfo_block {
+    display: flex;
+}
+
+.block_about {
+    margin-top: 27px;
+}
+
+.block_about p {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 41px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.block_about a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 14px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block_SignUp {
+    margin-top: 27px;
+    margin-left: 121px;
+}
+
+.block_SignUp p {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 41px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.block_SignUp a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 14px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.block_Legal {
+    margin-top: 27px;
+    margin-left: 121px;
+}
+
+.block_Legal p {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 41px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.block_Legal a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 14px;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.social_icon {
+    margin-left: 141px;
+    margin-top: 27px;
+    line-height: 3.3;
+    cursor: pointer;
+}
+
+hr {
+    display: none;
+}
+
+.Privacy {
+    display: none;
+}
+
+
+/* MEDIA SCREEN */
+
+
+@media only screen and (max-width: 1300px) {
+
+    .block_SignUp,
+    .block_Legal,
+    .block_about {
+        display: none;
+    }
+
+    .social_icon {
+        margin-left: 0;
+    }
+
+    hr {
+        display: block;
+        margin-top: 34px;
+        height: 0.5px;
+        background-color: #fff;
+        border: none;
+    }
+
+    .Privacy {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 13px;
+    }
+
+    .Privacy a {
+        text-decoration: none;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.85);
+
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .TearmsOfUse{
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+
+    .TearmsOfUse span{
+        display: block;
+        background-color: #fff;
+        height: 3px;
+        width: 3px;
+        border-radius: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .block_with_hr {
+        padding: 0 25px;
+        padding-top: 22px;
+        padding-bottom: 30px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .companyInfo1 img {
+        width: 186px;
+    }
+
+    .LearningPortuguese {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .phone_numbers {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        margin-top: 30px;
+        line-height: 0.5;
+    }
+
+    .social_icon {
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+
+    .Privacy {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 13px;
+    }
+
+    .Privacy a {
+        text-decoration: none;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.85);
+
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .TearmsOfUse{
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+
+    .TearmsOfUse span{
+        display: block;
+        background-color: #fff;
+        height: 3px;
+        width: 3px;
+        border-radius: 100%;
+    }
 }
