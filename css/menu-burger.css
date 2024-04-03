@@ -110,3 +110,29 @@
     font-weight: 400;
     font-style: normal;
 }
+
+
+/* MEDIA SCREEN */
+
+
+@media only screen and (max-width: 540px) {
+    .backToPage {
+        padding: 10px 245px 10px 26px;
+    }
+
+    .div_about a {
+        padding: 10px 188px 10px 46px;
+    }
+
+    .div_price a {
+        padding: 10px 196px 10px 46px;
+    }
+
+    .div_sale a {
+        padding: 10px 203px 10px 46px;
+    }
+
+    .div_freeTest a {
+        padding: 10px 166px 10px 46px;
+    }
+}
