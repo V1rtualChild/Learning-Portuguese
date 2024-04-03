@@ -95,11 +95,15 @@ button {
         width: 80%;
     }
 
+    .div_form{
+        margin: 0 110px;
+    }
+
     .btnSend{
         margin: 1px auto;
         margin-top: 25px;
         margin-bottom: 100px;
-        width: 22em;
+        width: 100%;
     }
 
     input, button{
@@ -110,7 +114,6 @@ button {
         padding-bottom: 5px;
         padding-left: 15px;
         width: 100%;
-
     }
 
     input::placeholder {
@@ -123,4 +126,11 @@ button {
         margin-right: 4px;
 
     }
+}
+
+@media only screen and (max-width: 540px) {
+    .div_form{
+        margin: 0 30px;
+    }
+
 }
