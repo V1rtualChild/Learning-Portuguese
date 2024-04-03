@@ -19,6 +19,14 @@
     height: 900px;
 }
 
+.Ellipse3 {
+    display: none;
+}
+
+.Ellipse1 {
+    display: none;
+}
+
 
 .Rectangle {
     margin-left: 58px;
@@ -137,11 +145,11 @@
     font-size: 13px;
 }
 
-.lastInfo{
+.lastInfo {
     display: none;
 }
 
-.Rectangle_3{
+.Rectangle_3 {
     display: none;
 }
 
@@ -266,6 +274,24 @@
     .container-2 {
         display: block;
         height: 100%;
+        position: relative;
+        z-index: -2;
+    }
+
+    .Ellipse3 {
+        display: block;
+        position: absolute;
+        margin-top: 265px;
+        margin-left: 600px;
+        z-index: -1;
+    }
+
+    .Ellipse1 {
+        display: block;
+        position: absolute;
+        margin-top: 455px;
+        margin-left: 100px;
+        z-index: -1;
     }
 
     .Rectangle {
@@ -339,15 +365,18 @@
         padding: 30px 22px;
         font-size: 58px;
     }
-    .rating_1_p1{
+
+    .rating_1_p1 {
         font-weight: 400;
         font-weight: 400;
         font-size: 14px;
     }
-    .lastInfo{
+
+    .lastInfo {
         display: block;
     }
-    .lastInfo p{
+
+    .lastInfo p {
         font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -362,14 +391,87 @@
 
     }
 
-    .bottomRectangle{
+    .bottomRectangle {
         display: flex;
         justify-content: center;
     }
-    .Rectangle_3{
+
+    .Rectangle_3 {
         display: block;
         width: 261px;
         margin-top: 55px;
         margin-bottom: -80px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .Ellipse3 {
+        display: block;
+        position: absolute;
+        margin-top: 265px;
+        margin-left: 500px;
+        z-index: -1;
+    }
+
+    .Ellipse1 {
+        display: block;
+        position: absolute;
+        margin-top: 455px;
+        margin-left: 100px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .Ellipse3 {
+        display: block;
+        position: absolute;
+        margin-top: 265px;
+        margin-left: 450px;
+        z-index: -1;
+    }
+
+    .Ellipse1 {
+        display: block;
+        position: absolute;
+        margin-top: 455px;
+        margin-left: 100px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .Ellipse3 {
+        display: block;
+        position: absolute;
+        margin-top: 465px;
+        margin-left: 200px;
+        z-index: -1;
+    }
+
+    .Ellipse1 {
+        display: block;
+        position: absolute;
+        margin-top: 655px;
+        margin-left: 100px;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 466px) {
+    .Ellipse3 {
+        display: block;
+        position: absolute;
+        margin-top: 465px;
+        margin-left: 130px;
+        z-index: -1;
+    }
+
+    .Ellipse1 {
+        display: block;
+        position: absolute;
+        margin-top: 785px;
+        margin-left: 10px;
+        z-index: -1;
     }
 }
